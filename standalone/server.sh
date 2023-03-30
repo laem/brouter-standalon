@@ -28,4 +28,4 @@ if [ ! -e "$CUSTOMPROFILESPATH" ]; then
     CUSTOMPROFILESPATH="../customprofiles"
 fi
 
-java $JAVA_OPTS -cp $CLASSPATH btools.server.RouteServer "$SEGMENTSPATH" "$PROFILESPATH" "$CUSTOMPROFILESPATH" $PORT 1 $BINDADDRESS
+java $JAVA_OPTS -cp $CLASSPATH btools.server.RouteServer "$SEGMENTSPATH" "$PROFILESPATH" "$CUSTOMPROFILESPATH" $PORT 1 localhost

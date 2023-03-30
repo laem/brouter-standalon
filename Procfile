@@ -1,1 +1,1 @@
-web: standalone/local.sh
+web: PORT=$PORT standalone/server.sh
