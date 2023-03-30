@@ -1,2 +1,2 @@
-web: java $JAVA_OPTS -cp $CLASSPATH btools.server.RouteServer "$SEGMENTSPATH" "$PROFILESPATH" "$CUSTOMPROFILESPATH" $PORT 1 localhost
+web: java -cp ../brouter.jar btools.server.RouteServer "../segments4" "../profiles2" $PORT 1 localhost
 
