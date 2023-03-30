@@ -1,0 +1,1 @@
+web: standalone/local.sh
