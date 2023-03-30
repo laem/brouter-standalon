@@ -1,2 +1,2 @@
-web: bash download.sh && java -cp brouter.jar btools.server.RouteServer "segments4" "profiles2" "customprofiles" $PORT 1 localhost
+web: bash download.sh
 
