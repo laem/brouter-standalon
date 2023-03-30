@@ -4,4 +4,21 @@
   <groupId>plus.villes</groupId>
   <artifactId>brouter</artifactId>
   <version>1</version>
+<plugin>
+   <groupId>org.codehaus.mojo</groupId>
+   <artifactId>exec-maven-plugin</artifactId>
+   <version>1.6.0</version>
+   <executions>
+      <execution>
+         <id>my-exec</id>
+         <phase>pre-integration-test</phase>
+         <goals>
+            <goal>exec</goal>
+         </goals>
+      </execution>
+   </executions>
+   <configuration>
+      <executable>${project-home}/standalone/server.sh</executable>
+   </configuration>
+</plugin>
 </project>
